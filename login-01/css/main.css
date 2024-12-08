@@ -1,0 +1,10 @@
+/*  */
+.logo{
+    display: flex;
+}
+#img_Logo{
+    width: 100px;
+}
+#formulario{
+    display: table-caption;
+}
