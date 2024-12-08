@@ -1,0 +1,45 @@
+/* perfis */
+.perfis {
+    background-image: url("../assents/img/background/little-panda-cartoon-cute-face-baby-vector-40201131.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(80px);
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.text_perfil {
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.card {
+    background-color: rgb(175, 174, 174);
+}
+
+#imgcard {
+    padding: 20px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#btnpost {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -45px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    transition: 1s;
+}
+#btnpost:hover {
+    background-color: rgb(213, 74, 255);
+    color: rgb(0, 0, 0);
+}
+#imgcard:hover{
+    opacity: 80%;
+}

@@ -1,0 +1,7 @@
+*{
+    /* para mim e melhor zera tudo */
+    margin: 0;
+}
+main{
+    display: flex;
+}

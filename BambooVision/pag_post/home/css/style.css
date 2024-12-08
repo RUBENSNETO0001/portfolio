@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'fontEscrita01';
+    src: url("../assents//fonts/rustic_barn/Rustic\ Barn.ttf");
+    font-family: 'fontModel';
+    src: url("../assents/fonts/Bubbler_One\,Playfair_Display/");
+    font-family: 'fontlostDesenho';
+    src: url("../assents/fonts/lost_in_wild/Lost\ in\ Wild.otf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    background-image: url(../assents/imagem/main/jpg/digital-lavender-natural-landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*header*/
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    height: 55px;
+}
+
+.logo {
+    font-family: fontEscrita01;
+    font-size: 15px;
+    display: flex;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    left: 15%;
+}
+
+#imagemLogo {
+    position: relative;
+    top: -15px;
+    max-width: 80px;
+    max-height: 60px;
+    border-radius: 20px;
+}
+
+.linkspags {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 2s;
+}
+
+.link {
+    text-decoration: none;
+    align-items: center;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.link:hover {
+    color: #d400ff;
+    position: relative;
+    top: -5px;
+    flex: 4;
+    font-size: 20px;
+}
+
+@media(max-width: 907px) {
+    .linkspags {
+        position: absolute;
+        left: 70%;
+
+    }
+}
+
+@media(max-width: 675px) {
+    .linkspags {
+        opacity: 0%;
+    }
+}
+
+/*header*/
+/*main*/
+
+.autor {
+    background-color: #000000;
+    max-width: 500px;
+    min-height: 450px;
+    transition: 2s;
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 1%;
+    transform: translateX(-50%);
+}
+
+
+.autor:hover {
+    box-shadow: 0px 0px 10px 1px #d400ff;
+}
+
+#imgAutor {
+    max-width: 300px;
+    position: relative;
+    margin-top: 12px;
+    border-radius: 20%;
+}
+
+.name {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#nomeUser_real {
+    font-style: italic;
+    color: #ebebeb;
+}
+
+#nomeUser_real:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #d400ff;
+}
+
+/*modal*/
+.modais{
+    position: relative;
+    top: 100px;
+}
+/* modal externo */
+.butoes {
+    background-color: #000000;
+    position: relative;
+    left: 50%;
+    top: -102px;
+    transform: translateX(-50%);
+    padding: 2%;
+    padding-left: 5%;
+    border-radius: 30px;
+    max-width: 507px;
+    min-height: 30px;
+    padding-top: 4%;
+    transition: 1s;
+}
+
+.butoes:hover {
+    box-shadow: 0px 0px 10px 1px #d400ff;
+}
+
+.btn {
+    border: none;
+    background-color: #ffffff;
+    color: #d400ff;
+    border-radius: 20px;
+    padding: 12px;
+    transition: 1s;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+
+.btn:hover {
+    background-color: #d400ff;
+    color: #ffffff;
+    box-shadow: 0px 0px 12px 1px #d400ff;
+}
+
+/* alterar a proporssão */
+@media(max-width: 505px) {
+    .btn {
+        position: relative;
+        margin-left: 19%;
+        transform: translateX(-21%);
+    }
+}
+
+@media(max-width: 435px) {
+    .btn {
+        position: relative;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media(max-width: 418px) {
+    #imagemTransicao {
+        width: 126%;
+    }
+}
+
+/* modal de fora  */
+.modal {
+    display: none;
+    position: fixed;
+
+    z-index: 1;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    background: url("../assents/imagem/main/gif/2c1697a144196c6ae4eb654e3f4a3db4_w200.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(30px);
+}
+
+/* modal interno */
+/* modal de dentro */
+.conteinerModal {
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    box-shadow: inset 0px 0px 27px 15px #d400ff;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.conteinerModalMain {
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    box-shadow: inset 0px 0px 27px 15px #d400ff;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+/*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
+.fechar {
+    color: #d400ff;
+    float: right;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.fechar:focus,
+.fechar:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #d400ff;
+    cursor: pointer;
+}
+
+/* texto modal */
+.texto_modal {
+    font-family: fontModel;
+}
+
+/* img modal*/
+.textmodal_desenho {
+    text-align: center;
+    font-size: 30px;
+}
+
+.link_modal {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: fontlostDesenho;
+}
+
+/*modal*/
+/*main*
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 101%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    height: 120px;
+}
+
+#textFooter {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/* linkes  text*/
+span#redesociaisTable{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d400ff;
+    display: inline-flex;
+    border-radius: 33px;
+}
+#contatoAlemDaqui{
+    position: absolute;
+    display: none;
+    transition: 2s;
+    top: 26px;
+}
+img.iconRedessociais{
+    /* nãp precisa de termina a altura, ele proprio ajusta isso junto da largura */
+    width: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 1px 4px 1px 0px #d400ff;
+    border-radius: 30px;
+    transition: 1s;
+}
+img.iconRedessociais:hover{
+   background-color: #9c8d9e;
+   box-shadow: -1px -4px 2px 0px #d400ff;
+}
+Footer:hover #contatoAlemDaqui{
+    display: block;
+}
+Footer:hover #textFooter{
+    display: none;
+}
+@media(max-width:371px){
+    Footer:hover #contatoAlemDaqui{
+        display: flex;
+        justify-content: center;
+    }
+}

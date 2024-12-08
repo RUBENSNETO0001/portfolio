@@ -5,7 +5,7 @@ function entrar() {
     let senha = document.getElementById("senha").value;
 
         if (chavedeEntrada == array[0]  && senha == array[1] ) {
-            window.location.href = "#";
+            window.location.href = "../BambooVision/home/index.html";
         }
         else if(chavedeEntrada == "" || senha == ""){
             alert("Verifique os campos não estão vazios");
