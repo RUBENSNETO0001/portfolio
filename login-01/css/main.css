@@ -1,10 +1,97 @@
-/*  */
+/*parte font */
+@font-face{
+    font-family: 'fontPadrão';
+    src: url("../assents/fonts/Bubbler_One\,Playfair_Display\,Ribeye_Marrow/");
+    font-family: 'fontPhaceholder';
+    src: url("../assents/fonts/Bubbler_One\,Merriweather\,Playfair_Display\,Ribeye_Marrow/");
+}
+body #main{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #ffffff;
+}
+#main{
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    font-family: 'fontPadrão';
+}
+/* fora do form */
 .logo{
     display: flex;
+        position: relative;
+        margin-top: 40vh;
+        justify-content: center;
+}
+#texto_Logo{
+    display: flex;
+    align-items: center;
 }
 #img_Logo{
     width: 100px;
 }
+/* form */
 #formulario{
-    display: table-caption;
+    margin-right: 42px;
+}
+.input{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 12px;  
+}
+input::placeholder{
+    font-family: 'fontPhaceholder';
+}
+#user{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#senha{
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+}
+#text-registro{
+    position: relative;
+    margin-right: 30px;
+}
+#link-registro{
+    text-decoration: none;
+    animation: infinite;
+    animation-name: regis;
+    animation-duration: 3s;
+}
+/* animação */
+@keyframes regis {
+    0%{
+        color: rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(231, 152, 255);
+    }
+    100%{
+        color: rgb(213, 74, 255);
+    }
+}
+/* animação btn */
+
+#btn{
+    background-color: black;
+    color: rgb(195, 0, 255);
+    border: none;
+    transition: 2s;
+}
+#btn:hover{
+    background-color: rgb(195, 0, 255);
+    color: #ffffff;
+}
+/* arrumar as dimensões */
+
+.camadaback{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 440px;
+    box-shadow: -23px 0px 64px 11px rgb(195, 0, 255);
 }
