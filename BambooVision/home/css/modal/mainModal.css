@@ -1,9 +1,11 @@
 /* desing btn */
 .btn{
-  border-radius: 100%;
-  border: none;
+  border-radius: 30px;
+  width: none;
+  height: none;
   background-color: #000000;
-  margin-left: -50px;
+  margin-left: -10px;
+  border: none;
 }
 /* modal de fora  */
 .modal {

@@ -2,7 +2,7 @@
 .perfis {
     background-image: url("../assents/img/background/DesenhosPanda.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50% 80%;
     backdrop-filter: blur(80px);
     position: relative;
     width: 100%;
@@ -47,7 +47,7 @@
 /* media */
 @media(max-width: 897px){
     .perfis{
-        background: url("../assents/img/background/DesenhosPanda.jpg");
+        background: url("../assents/img/background/istockphoto-1195743934-612x612.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;

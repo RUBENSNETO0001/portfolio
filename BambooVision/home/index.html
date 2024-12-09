@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/main_opcoes.css">
+    <link rel="stylesheet" href="css/modal/mainModal.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="assents/img/svg/panda.svg" type="image/x-icon">
     <!-- js -->
      <script src="js/btn.js" defer></script>
+     <script src="js/modal.js" defer></script>
     <title>home</title>
 </head>
 
@@ -37,12 +39,49 @@
         <!-- parte da lateral -->
         <div class="postbackground">
             <ul>
-                <li class="list_opcao"><img src="assents/img/main/opcoesMenu/botao-home.png" alt="Home"
-                        class="imgMainOpcoes"></li>
-                <li class="list_opcao"><img src="assents/img/main/opcoesMenu/pasta-aberta.png" alt="Postfolios"
-                        class="imgMainOpcoes"></li>
+                <li class="list_opcao"><button id="modal_01" class="btn"><img src="assents/img/main/opcoesMenu/botao-home.png" alt="Home"
+                        class="imgMainOpcoes"></button></li>
+                <li class="list_opcao"><button id="modal_02" class="btn"><img src="assents/img/main/opcoesMenu/pasta-aberta.png" alt="Postfolios"
+                        class="imgMainOpcoes"></button></li>
             </ul>
         </div>
+         <!--O modal de fato-->
+
+         <div id="modal0" class="modal">
+            <div class="conteinerModal">
+                <!--<span class="fechar">&times;</span> isso aqui cria o X para sai do modal parte fisica. "Para realmente sai do modal isso vai ser com o JS(JAVASCRIPT)"-->
+                <span class="fechar">&times;</span>
+                <h1>Quem sou eu?</h1>
+
+            </div>
+            <div class="conteinerModalMain">
+                <p class="texto_modal">Olá meu nome é Rubens.<br><br>Tenho atualmente 18 anos. Eu sou uma pessoa que
+                    ama demais
+                    e é punido por isso frequentemente. As vezes estou bem e as vezes não, e a vida. Desconto tudo
+                    na
+                    programação para não me senti sozinho ou me machucar(eu sempre me feria até começa sangra muito,
+                    doia... eu
+                    queria morrer), a mesma me ajuda bastante a enfreta esses pensamentos que tanto quero para de
+                    ter. As vezes
+                    não consigo dormi a noite.</p>
+            </div>
+        </div>
+
+        <div id="modal1" class="modal ">
+            <div class="conteinerModal">
+                <!--<span class="fechar">&times;</span> isso aqui cria o X para sai do modal parte fisica. "Para realmente sai do modal isso vai ser com o JS(JAVASCRIPT)"-->
+                <span class="fechar">&times;</span>
+                <h1>Desenhos</h1>
+            </div>
+            <div class="conteinerModalMain">
+                <div class="artDesenho">
+                    <nav>
+                        <a href="../paginaDesenho/index.html" class="link_modal">Ir para Desenhos</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
         <div class="perfis">
             <div class="text_perfil">
                 <h1>Portfolios</h1>
