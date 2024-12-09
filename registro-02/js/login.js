@@ -4,7 +4,7 @@ function entrar() {
     let senha = document.getElementById("senha").value;
 
         if (chavedeEntrada && senha ) {
-            window.location.href = "#";
+            window.location.href = "../BambooVision/home/index.html";
             alert("Seje bem-vindo!!");
         }
         else if(chavedeEntrada == "" || senha == ""){
