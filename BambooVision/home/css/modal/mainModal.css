@@ -1,0 +1,70 @@
+/* desing btn */
+.btn{
+  border-radius: 100%;
+  border: none;
+  background-color: #000000;
+  margin-left: -50px;
+}
+/* modal de fora  */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+ 
+}
+
+/* modal interno */
+/* modal de dentro */
+.conteinerModal {
+  color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  box-shadow: inset 0px 0px 27px 15px #d400ff;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.conteinerModalMain {
+  position: relative;
+  top: 20px;
+  color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  box-shadow: inset 0px 0px 27px 15px #d400ff;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
+.fechar {
+  color: #d400ff;
+  float: right;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.fechar:focus,
+.fechar:hover {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #d400ff;
+  cursor: pointer;
+}
+
+/* img modal*/
+.textmodal_desenho {
+  text-align: center;
+  font-size: 30px;
+}
+
+.link_modal {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*modal*/

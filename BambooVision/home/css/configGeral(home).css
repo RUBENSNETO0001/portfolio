@@ -2,6 +2,9 @@
     /* para mim e melhor zera tudo */
     margin: 0;
 }
+body{
+    background-color: black;
+}
 main{
     display: flex;
 }

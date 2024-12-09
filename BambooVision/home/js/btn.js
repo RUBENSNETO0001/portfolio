@@ -1,4 +1,3 @@
-// comeco do event;
 const span = document.querySelector(".btn-cont");
 // selecionei o todo do negocio
 // depois coloquei em add de evneto com a função click
