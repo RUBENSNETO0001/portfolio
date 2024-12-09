@@ -270,10 +270,10 @@ body {
 /*main*
 /* footer */
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
-    width: 101%;
+    width: 100%;
     color: #ffffff;
     display: flex;
     justify-content: center;
