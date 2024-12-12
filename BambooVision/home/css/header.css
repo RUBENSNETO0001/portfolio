@@ -50,9 +50,7 @@
     .linkspags {
         position: absolute;
         left: 70%;
-
     }
-
 }
 
 @media(max-width: 675px) {
