@@ -7,7 +7,7 @@ span.addEventListener('click', ()=> {
     const voltar = document.querySelector("#btnpost");
     // e selecionei if e else simples se o cara clicar ele vai para o if info com o comando window.location.href = "e o local aonde que ir";
     if(voltar){
-        window.location.href = "../pag_post/home/index.html";
+        window.location.href = "../pag_post/pagPost/index.html";
     }
     // caso de errado o evento
     else{
