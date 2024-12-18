@@ -1,181 +1,22 @@
-.autor {
-    background-color: #000000;
-    max-width: 500px;
-    min-height: 450px;
-    transition: 2s;
-    position: relative;
-    display: flex;
-    border-radius: 30px;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 50%;
-    margin-top: 1%;
-    transform: translateX(-50%);
-}
-
-
-.autor:hover {
-    box-shadow: 0px 0px 10px 1px #d400ff;
-}
-
-#imgAutor {
-    max-width: 300px;
-    position: relative;
-    margin-top: 12px;
-    border-radius: 20%;
-}
-
-.name {
-    color: #ffffff;
-    text-align: center;
-    position: relative;
-}
-
-#nomeUser_real {
-    font-style: italic;
-    color: #ebebeb;
-}
-
-#nomeUser_real:hover {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px #d400ff;
-}
-
-/*modal*/
-.modais{
-    position: relative;
-    top: 100px;
-}
-/* modal externo */
-.butoes {
-    background-color: #000000;
-    position: relative;
-    left: 50%;
-    top: -102px;
-    transform: translateX(-50%);
-    padding: 2%;
-    padding-left: 5%;
-    border-radius: 30px;
-    max-width: 507px;
-    min-height: 30px;
-    padding-top: 4%;
-    transition: 1s;
-}
-
-.butoes:hover {
-    box-shadow: 0px 0px 10px 1px #d400ff;
-}
-
-.btn {
-    border: none;
-    background-color: #ffffff;
-    color: #d400ff;
-    border-radius: 20px;
-    padding: 12px;
-    transition: 1s;
-    font-size: 15px;
-    position: relative;
-    top: -10px;
-}
-
-.btn:hover {
-    background-color: #d400ff;
-    color: #ffffff;
-    box-shadow: 0px 0px 12px 1px #d400ff;
-}
-
-/* alterar a proporssão */
-@media(max-width: 505px) {
-    .btn {
-        position: relative;
-        margin-left: 19%;
-        transform: translateX(-21%);
-    }
-}
-
-@media(max-width: 435px) {
-    .btn {
-        position: relative;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media(max-width: 418px) {
-    #imagemTransicao {
-        width: 126%;
-    }
-}
-
-/* modal de fora  */
-.modal {
-    display: none;
-    position: fixed;
-
-    z-index: 1;
-    padding-top: 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #000000;
-    background: url("../assents/imagem/main/gif/2c1697a144196c6ae4eb654e3f4a3db4_w200.gif");
+.perfil{
+    background: url(../assents/imagem/main/fundo-preto-e-branco-de-explosao_53876-85015.png);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(30px);
+    display: flex;
+}
+#texto_perfil{
+    max-width: 400px;
+    margin-left: 30%;
+    transform: translateX(-30%);
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 3px;
 }
 
-/* modal interno */
-/* modal de dentro */
-.conteinerModal {
-    color: #ffffff;
-    margin: auto;
-    padding: 20px;
-    box-shadow: inset 0px 0px 27px 15px #d400ff;
-    max-width: 80%;
-    border-radius: 10px;
-}
-
-.conteinerModalMain {
-    position: relative;
-    top: 20px;
-    color: #ffffff;
-    margin: auto;
-    padding: 20px;
-    box-shadow: inset 0px 0px 27px 15px #d400ff;
-    max-width: 80%;
-    border-radius: 10px;
-}
-
-/*melhorar o "X" é deixa com uma animaçãozinha de leves pai*/
-.fechar {
-    color: #d400ff;
-    float: right;
-    font-size: 30px;
-    transition: 1s;
-}
-
-.fechar:focus,
-.fechar:hover {
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #d400ff;
-    cursor: pointer;
-}
-
-/* texto modal */
-.texto_modal {
-    font-family: fontModel;
-}
-
-/* img modal*/
-.textmodal_desenho {
-    text-align: center;
-    font-size: 30px;
-}
-
-.link_modal {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: fontlostDesenho;
+/* media para deixar melhor no celular */
+@media(max-width: 480px) {
+    .perfil {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
