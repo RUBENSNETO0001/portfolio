@@ -3,13 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    text-align: justify;
+}
+.divsPerfils{
+    margin-top: 20px;
 }
 #texto_perfil{
     max-width: 400px;
     margin-left: 30%;
     transform: translateX(-30%);
-    -webkit-text-stroke-color: #ffffff;
-    -webkit-text-stroke-width: 3px;
+    background-color: #ffffff;
+    backdrop-filter: blur(40px);
 }
 
 /* media para deixar melhor no celular */
@@ -18,5 +22,10 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+    }
+    #texto_perfil{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align: start;
     }
 }
