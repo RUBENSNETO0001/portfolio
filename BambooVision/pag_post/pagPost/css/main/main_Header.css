@@ -1,0 +1,72 @@
+.perfil {
+    background: url(../../assents/imagem/main/fundo-preto-e-branco-de-explosao_53876-85015.png);
+    padding: 45px 0px 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: justify;
+}
+
+.divsPerfils {
+    margin-top: 20px;
+}
+
+#texto_perfil {
+    max-width: 400px;
+    margin-left: 30%;
+    transform: translateX(-30%);
+    background-color: #ffffff;
+    object-fit: contain;
+    backdrop-filter: blur(40px);
+}
+
+#imgPerfil02 {
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: #ffffff;
+    border: 2px black solid;
+}
+
+/* linkes */
+#linkerPosition {
+    position: relative;
+    background: url("../../assents/imagem/main/textura-preta-designer-conect1.jpg");
+    box-shadow: inset 0px 0px 19px 12px black;
+    padding-top: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkes {
+    width: 40px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 2px 0px 1px #d400ff;
+    transition: 0.5s;
+}
+
+/* hover */
+.linkes:hover {
+    background-color: #685f67;
+    box-shadow: 0px -2px 0px 1px #630a75;
+}
+/* hover */
+/* media para deixar melhor no celular */
+@media(max-width: 480px) {
+    .perfil {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #texto_perfil {
+        margin-left: 83%;
+        transform: translateX(-50%);
+        text-align: start;
+        min-width: 90%;
+    }
+}

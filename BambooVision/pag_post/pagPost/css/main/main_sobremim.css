@@ -1,0 +1,30 @@
+.skils{
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#textIn_skils{
+    border: 3px solid black;
+    display: flex;
+    width: 133px;
+    align-items: center;
+    justify-content: center;
+}
+#textIn_pagSkils{
+    position: relative;
+    margin: 18px;
+    margin-left: -30%;
+    transform: translateX(-30px);
+}
+.logos{
+    width: 50px;
+    transition: 1s;
+}
+/* hover */
+.logos:hover{
+    background-color: #d400ff;
+    border-radius: 100%;
+    border: 2px solid black;
+}
