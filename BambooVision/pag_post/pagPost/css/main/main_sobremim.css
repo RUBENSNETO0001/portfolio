@@ -28,3 +28,9 @@
     border-radius: 100%;
     border: 2px solid black;
 }
+#textIn_pagSkils02{
+    position: relative;
+    margin: 30px;
+    margin-left: -30%;
+    transform: translateX(-30px);
+}
