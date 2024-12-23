@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="css/configGeral.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main/main_Header.css">
-    <link rel="stylesheet" href="css/main/main_sobremim.css">
+    <link rel="stylesheet" href="css/main/main_skills.css">
+    <link rel="stylesheet" href="css/main/main_formulario.css">
+    <link rel="stylesheet" href="css/main/espaçameto.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- usar o defer para ler o html e o JS -->
     <script src="js/script.js" defer></script>
+    <script src="js/contrate-me.js" defer></script>
     <!-- favicon -->
     <link rel="shortcut icon" href="assents/imagem/svg/2oR1KW7ELHUdL3XqDxKBZ9Fdi2g.svg" type="image/x-icon">
     <title>Portfolio</title>
@@ -79,7 +82,17 @@
                 </tr>
             </table>
         </div>
-        div.
+        <hr class="accessory">
+        <div class="contrate-me">
+            <h2 id="textIn_skils">Contrate-me</h2>
+            <form id="formulario">
+                <input type="text" placeholder="Coloque seu nome: " class="input_contrateme" id="nome">
+                <input type="email" placeholder="Coloque seu email: " class="input_contrateme" id="email">
+                <input type="number" placeholder="Coloque seu numero: " class="input_contrateme" id="numero">
+                <input type="text" placeholder="Insira uma mensagem(opcional): " class="input_contrateme" id="text">
+                <input type="button" value="Enviar" onclick="formulario()" class="input_contrateme">
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer">

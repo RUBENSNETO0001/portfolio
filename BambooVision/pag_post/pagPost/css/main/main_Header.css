@@ -5,6 +5,8 @@
     background-size: cover;
     display: flex;
     text-align: justify;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .divsPerfils {
@@ -13,8 +15,6 @@
 
 #texto_perfil {
     max-width: 400px;
-    margin-left: 30%;
-    transform: translateX(-30%);
     background-color: #ffffff;
     object-fit: contain;
     backdrop-filter: blur(40px);
@@ -25,6 +25,7 @@
     object-fit: cover;
     background-color: #ffffff;
     border: 2px black solid;
+    width: 160px;
 }
 
 /* linkes */

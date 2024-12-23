@@ -1,0 +1,17 @@
+.contrate-me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 9px;
+}
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_contrateme{
+    margin-top: 5px;
+    border: none;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
