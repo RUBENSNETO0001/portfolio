@@ -1,0 +1,22 @@
+#meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:839px){
+    #meio{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #img_logo{
+        max-width: 350px;
+    }
+}
+#text_sobrenos {
+    display: flex;
+    max-width: 400px;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
