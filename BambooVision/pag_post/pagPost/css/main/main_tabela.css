@@ -1,0 +1,16 @@
+#text_tabela{
+    display: flex;
+    justify-content: center;
+}
+#tabela{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td:hover{
+    background-color: black;
+    color: #d400ff;
+}
