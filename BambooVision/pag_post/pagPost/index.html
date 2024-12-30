@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/main/main_Header.css">
     <link rel="stylesheet" href="css/main/main_skills.css">
     <link rel="stylesheet" href="css/main/main_formulario.css">
-    <link rel="stylesheet" href="css/main/espaçameto.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- usar o defer para ler o html e o JS -->
     <script src="js/script.js" defer></script>
@@ -27,8 +26,7 @@
         <div class="header">
             <div class="logo">
                 <!--não precisa separar isso aqui, no final os 2 vão esta junto.-->
-                <img src="./assents/imagem/header/DeWatermark.ai_1728654604893-removebg-preview.png"
-                    alt="logo em foma de panda, uma linha Currículo." id="imagemLogo">
+                <img src="./assents/imagem/header/DeWatermark.ai_1728654604893-removebg-preview.png" alt="logo em foma de panda, uma linha Currículo." id="imagemLogo">
                 <h1>Currículo</h1>
             </div>
             <div class="linkspags">
@@ -82,18 +80,26 @@
                 </tr>
             </table>
         </div>
-        <hr class="accessory">
+
+        <div>
+            <h4>Lista de jogos feito por mim</h4>
+            <table>
+                
+            </table>
+        </div>
+        <!-- contrate-me -->
         <div class="contrate-me">
-            <h2 id="textIn_skils">Contrate-me</h2>
+            <h2 id="textIn_contato">Contrate-me</h2>
             <form id="formulario">
                 <input type="text" placeholder="Coloque seu nome: " class="input_contrateme" id="nome">
                 <input type="email" placeholder="Coloque seu email: " class="input_contrateme" id="email">
                 <input type="number" placeholder="Coloque seu numero: " class="input_contrateme" id="numero">
                 <input type="text" placeholder="Insira uma mensagem(opcional): " class="input_contrateme" id="text">
-                <input type="button" value="Enviar" onclick="formulario()" class="input_contrateme">
+                <input type="button" value="Enviar" onclick="formulario()" class="input_contrateme" id="btn_input">
             </form>
         </div>
     </main>
+    <!-- fim um esquema de quando passar o mouse em cima ou toca em cima o link em forma de img aparece e a palavra some kkk  -->
     <footer>
         <div class="footer">
             <h4 id="textFooter">BambooVision</h4>
