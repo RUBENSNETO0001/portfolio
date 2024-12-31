@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 75px 0px;
-    box-shadow: inset 0px -40px 71px -8px black;
+    box-shadow: inset 0px -40px 50px -8px black;
 }
 /* global */
 
@@ -20,7 +20,10 @@
 #img_templete3{
     max-width: 320px;
 }
-
+#img_templete4{
+    max-width: 320px;
+    border-image: fill;
+}
 #text_sobrenos {
     max-width: 400px;
     text-align: justify;

@@ -1,3 +1,3 @@
 document.getElementById("btn_voltar").addEventListener("click", function(){
-   alert('ola')
+   window.location.href="../home/index.html";
 })
