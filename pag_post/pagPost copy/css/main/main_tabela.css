@@ -1,0 +1,18 @@
+#text_tabela{
+    display: flex;
+    justify-content: center;
+}
+#tabela{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px;
+    box-shadow: inset 0px 0px 64px 9px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td:hover{
+    background-color: black;
+    color: #d400ff;
+}

@@ -1,0 +1,43 @@
+.contrate-me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: url(../../assents/imagem/main/fundo-claro-azul-metalico-abstrato_333858-490.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textIn_contato{
+    border: 3px solid rgb(255, 255, 255);
+    color: #ffffff;
+    display: flex;
+    width: 133px;
+    align-items: center;
+    justify-content: center;
+}
+#formulario {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.input_contrateme{
+    margin-top: 5px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 10px;
+    border-left: 1px solid #d400ff;
+    border-bottom: 1px solid #d400ff;
+    background-color: black;
+    color: #d400ff;
+    transition: 1s;
+}
+
+#btn_input:hover{
+    background-color: #d400ff;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px 1px #ffffff;
+}
