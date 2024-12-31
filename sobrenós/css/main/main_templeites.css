@@ -1,0 +1,56 @@
+/* global */
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 0px;
+    box-shadow: inset 0px -40px 71px -8px black;
+}
+/* global */
+
+/* templete 1 */
+
+#img_templete1 {
+    filter: drop-shadow(0px 0px 10px #d400ff);
+    max-width: 320px;
+}
+#img_templete2{
+    max-width: 320px;
+}
+#img_templete3{
+    max-width: 320px;
+}
+
+#text_sobrenos {
+    max-width: 400px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ajuste pra smartfone/tablet */
+@media(max-width:839px) {
+    .meio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #img_logo {
+        max-width: 350px;
+    }
+
+    #text_sobrenos {
+        padding: 50px;
+    }
+}
+
+/* hr */
+hr{
+    height: 40px;
+    background: url(../../assents/img/main/jpg/depositphotos_400947652-stock-photo-colorful-texture-abstract-background-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 0px 22px 10px black;
+}
