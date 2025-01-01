@@ -11,6 +11,40 @@
 #img_apresentacao{
     filter: drop-shadow(0px 0px 10px #d400ff);
 }
+/* animação */
+#img_apresentacao:hover{
+    animation: infinite;
+    animation-name: imgapresent;
+    animation-duration: 3s;
+}
+@keyframes imgapresent{
+    0%{
+        filter: drop-shadow(0px 0px 10px #d400ff);
+    }
+    15%{
+        filter: drop-shadow(0px 0px 10px #ff00d4);
+    }
+    30%{
+        filter: drop-shadow(0px 0px 10px #ff0000);
+    }
+    55%{
+        filter: drop-shadow(0px 0px 10px #ff7b00);
+    }
+    75%{
+        filter: drop-shadow(0px 0px 10px #00ff37);
+    }
+    85%
+    {
+        filter: drop-shadow(0px 0px 10px #0059ff);
+    }
+    90%{
+        filter: drop-shadow(0px 0px 10px #4a00f7);
+    }
+    100%{
+        filter: drop-shadow(0px 0px 10px #ae00ff);
+    }
+}
+/* animação */
 /* redes sociais */
 .redesociaisText{
     display: flex;
