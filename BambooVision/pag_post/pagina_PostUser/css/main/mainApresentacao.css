@@ -1,0 +1,40 @@
+.main_HeaderApresentacao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 57px 0px 85px;
+}
+.apresentacaoTexto_01 {
+    max-width: 430px;
+    text-align: justify;
+}
+#img_apresentacao{
+    filter: drop-shadow(0px 0px 10px #d400ff);
+}
+/* redes sociais */
+.redesociaisText{
+    display: flex;
+    justify-content: center;
+}
+.textoplaca{
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+.redesociais{
+    display: flex;
+    justify-content: center;
+    padding: 29px 0px;
+}
+
+.img_redessociais{
+    width: 50px;
+}
+
+/* animação */
+.img_redessociais:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    filter: drop-shadow(0px 0px 6px #d400ff);
+    box-shadow: inset 0px 0px 20px 10px #808080;
+    transition: 1s;
+}

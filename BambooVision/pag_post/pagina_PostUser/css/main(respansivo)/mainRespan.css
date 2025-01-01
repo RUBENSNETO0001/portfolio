@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .main_HeaderApresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    table, th, td {
+        display: flex;
+        justify-content: center;
+    }
+}

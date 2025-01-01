@@ -1,0 +1,11 @@
+.hr_01{
+    position: relative;
+    top: 50px;
+    height: 40px;
+    background: url(../../assents/main/main_hr/depositphotos_400947652-stock-photo-colorful-texture-abstract-background-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 0px 0px 31px 7px;
+    border: 1px solid #000000;
+}

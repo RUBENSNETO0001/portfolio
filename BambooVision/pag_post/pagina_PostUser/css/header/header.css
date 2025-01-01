@@ -1,0 +1,30 @@
+/* config da pagina - global */
+header{
+    background-color: rgb(14, 14, 14);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+/* config da pagina - global */
+/* config em interna tags */
+.header_02{
+    display: flex;
+    align-items: center;
+}
+#imgLogo{
+    width: 80px;
+}
+/* link para os projetos */
+#ProjetosLink{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 13px;
+}
+/* buttão para voltar ao home */
+#btn_VoltarHome{
+    padding: 10px 15px;
+    border-radius: 100%;
+    border: none;
+}
+/* buttão para voltar ao home */
+/* config em interna tags */
