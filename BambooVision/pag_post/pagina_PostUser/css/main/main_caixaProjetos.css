@@ -1,0 +1,74 @@
+#textinprojeto {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 50px;
+}
+
+.projetos_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa01 {
+    display: flex;
+    border-radius: 50px;
+    height: 300px;
+    width: 250px;
+    margin-top: -30px;
+    background-color: black;
+    animation: backCaixa 5s linear infinite;
+    filter: opacity(50%);
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0px -73px 102px -11px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes backCaixa {
+    0% {
+        background-color: #d400ff;
+    }
+
+    15% {
+        background-color: #ff00d4;
+    }
+
+    30% {
+        background-color: #ff0000;
+    }
+
+    55% {
+        background-color: #ff7b00;
+    }
+
+    75% {
+        background-color: #00ff37;
+    }
+
+    85% {
+        background-color: #0059ff;
+    }
+
+    90% {
+        background-color: #4a00f7;
+    }
+
+    100% {
+        background-color: #ae00ff;
+    }
+}
+
+/* text caixa */
+
+.textProjetos {
+    color: #ff7b00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 30px;
+}
+
+.textProjetos02 {
+    font-size: 20px;
+}

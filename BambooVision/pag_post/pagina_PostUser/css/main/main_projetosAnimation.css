@@ -1,0 +1,29 @@
+/* div dos projetos( quando eu adicionei o hr eu meio que deixei ele para baixo da rugi dele e a divi ta començando em cima dele mesmo eu colocando em baixo. eub vou colocar a rug da div de baixo mais para baixo para concertar isso ai sou mmuitto burro) */
+.projetos{
+    position: static;
+    margin-top: 1%;
+    background-color: #bbe2e0;
+    z-index: -1;
+    /* filha da puta isso aqui vai impedir a imagem leva o site tbm */
+    overflow: hidden; /* Impede rolagem */
+}
+#panda_animaGif{
+    /* amigo isso aqui vai deixa a img intagivel e não clicavel */
+    pointer-events: none; /* Evita interações de clique */
+    user-select: none;
+    /* amigo isso aqui vai deixa a img intagivel e não clicavel */
+    width: 300px;
+    padding: 0px 0px 0px 12px;
+    animation: infinite;
+    animation-duration: 10s;
+    animation-name: pandaAndandonoAzul;
+}
+/* animation */
+@keyframes pandaAndandonoAzul{
+    from{
+        margin-left: -30%;
+    }
+    to{
+        margin-left: 100vw;
+    }
+}
