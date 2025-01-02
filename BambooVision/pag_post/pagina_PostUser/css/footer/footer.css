@@ -1,0 +1,10 @@
+.footerTotal {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30% 0px 0px;
+    background-color: black;
+    height: 100px;
+    color: #ffffff;
+}
