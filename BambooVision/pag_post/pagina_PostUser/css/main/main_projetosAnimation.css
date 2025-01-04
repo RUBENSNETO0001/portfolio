@@ -3,9 +3,9 @@
     position: static;
     margin-top: 1%;
     background-color: #bbe2e0;
-    z-index: -1;
     /* filha da puta isso aqui vai impedir a imagem leva o site tbm */
     overflow: hidden; /* Impede rolagem */
+    padding: 0px 0px 40px;
 }
 #panda_animaGif{
     /* amigo isso aqui vai deixa a img intagivel e não clicavel */
@@ -15,13 +15,13 @@
     width: 300px;
     padding: 0px 0px 0px 12px;
     animation: infinite;
-    animation-duration: 10s;
+    animation-duration: 9s;
     animation-name: pandaAndandonoAzul;
 }
 /* animation */
 @keyframes pandaAndandonoAzul{
     from{
-        margin-left: -30%;
+        margin-left: -50%;
     }
     to{
         margin-left: 100vw;

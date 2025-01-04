@@ -4,8 +4,18 @@
         flex-direction: column-reverse;
     }
 
-    table, th, td {
+    table,
+    th,
+    td {
         display: flex;
         justify-content: center;
+    }
+
+    .projetos_links {
+        flex-direction: column;
+        align-items: center;
+    }
+    #caixa02{
+        margin: 5px 0px 34px;
     }
 }

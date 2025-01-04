@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="css/main/main_tabela.css">
     <link rel="stylesheet" href="css/main/main_projetosAnimation.css">
     <link rel="stylesheet" href="css/main/main_caixaProjetos.css">
+    <link rel="stylesheet" href="css/main/main_contrateMe.css">
     <link rel="stylesheet" href="css/footer/footer.css">
     <!-- css -->
      <!-- js -->
       <script src="js/buttonVoltar.js" defer></script>
+      <script src="js/contrate.js" defer></script>
     <title>Pagina Postifolio</title>
 </head>
 
@@ -89,24 +91,23 @@
             </div>
             <div class="projetos_links">
                 <!-- cada caixa e um link para um projeto diferente -->
+                
                 <!-- caixa - 01 -->
                 <div class="caixa01">
                     <div class="img">
-                        <img src="#" alt="foto do projeto1">
+                        <a href="../projetos/projeto_01/index.html"><img src="assents/main/main_projetos/projetos/dados-removebg-preview.png" alt="foto do projeto1" class="img_projeto"></a>
                     </div>
                     <div class="text">
-                        <h1 class="textProjetos">projeto01</h1>
-                        <p class="textProjetos02">minha pica</p>
+                        <h1 class="textProjetos">projeto 01</h1>
                     </div>
                 </div>
                 <!-- caixa - 02 -->
-                <div class="caixa01">
+                <div class="caixa01" id="caixa02">
                     <div class="img">
                         <img src="#" alt="foto do projeto2">
                     </div>
                     <div class="text">
                         <h1 class="textProjetos">projeto02</h1>
-                        <p class="textProjetos02">minha pica</p>
                     </div>
                 </div>
                 <!-- caixa - 03 -->
@@ -116,10 +117,21 @@
                     </div>
                     <div class="text">
                         <h1 class="textProjetos">projeto03</h1>
-                        <p class="textProjetos02">minha pica</p>
                     </div>
                 </div>
             </div>
+        </div>
+        <hr class="hr02">
+        <!-- final da main -->
+        <div class="contrate_me">
+            <h3 id="textContrateme">Contrate-me</h3>
+            <form id="contrate_meForm">
+                <input type="text" placeholder="Seu Nome ou nome da empresa" class="input_contrateme" id="nome">
+                <input type="email" placeholder="Coloque seu email: " class="input_contrateme" id="email">
+                <input type="number" placeholder="Coloque seu numero: " class="input_contrateme" id="numero">
+                <input type="text" placeholder="Insira uma mensagem(opcional): " class="input_contrateme" id="text">
+                <input type="button" value="Enviar" onclick="formulario()" class="input_contrateme" id="btn_input">
+            </form>
         </div>
     </main>
     <footer>
