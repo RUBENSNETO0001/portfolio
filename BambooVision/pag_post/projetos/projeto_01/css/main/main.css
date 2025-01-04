@@ -1,0 +1,28 @@
+.areadodado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px 0px 0px 0px;
+    position: static;
+    margin-top: 20%;
+    transform: translateY(-50%);
+}
+#imgDadod{
+    width: 20%;
+}
+#number{
+    font-size: 30px;
+}
+/* footer */
+#footerText{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        
+        background-color: red;
+        box-shadow: inset 0px -89px 49px 0px black;
+        height: 131px;
+        justify-content: center;
+        color: #ffffff;
+}
