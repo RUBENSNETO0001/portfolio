@@ -1,4 +1,5 @@
 document.getElementById("button").addEventListener("click", function(){
+    
     let random = Math.floor(Math.random() * 6);
 
     if(random == 1){
