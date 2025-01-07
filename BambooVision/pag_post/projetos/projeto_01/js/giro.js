@@ -1,6 +1,6 @@
 document.getElementById("button").addEventListener("click", function(){
     
-    let random = Math.floor(Math.random() * 6);
+    let random = Math.floor(Math.random() * 7);//esqueci que e 7 no caso
 
     if(random == 1){
         document.getElementById("imgDadod").src="assents/main/dado1.jpeg";
