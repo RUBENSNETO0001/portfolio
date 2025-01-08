@@ -21,3 +21,12 @@
     margin: 5px 0px;
     padding: 5px 10px;
 }
+#btn_input{
+    background-color: aliceblue;
+    border: 1px solid rgb(0, 217, 255);
+    transition: 1s;
+}
+#btn_input:hover{
+    background-color: rgb(6, 108, 126);
+    box-shadow: -2px -2px 0px 0px rgb(85, 85, 85);
+}

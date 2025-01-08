@@ -1,0 +1,17 @@
+#lista {
+    display: none;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 20px 2px black;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#listaTotal {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    justify-content: center;
+}

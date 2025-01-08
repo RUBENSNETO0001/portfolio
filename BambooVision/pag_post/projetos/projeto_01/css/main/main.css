@@ -8,9 +8,11 @@
     transform: translateY(-50%);
 }
 
+
 #imgDadod {
     width: 20%;
     transition: 1s;
+    border-radius: 10px;
 }
 
 #number {

@@ -1,19 +1,16 @@
-#header {
+header{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
-.logo {
+.logo{
     display: flex;
     align-items: center;
 }
-
-#imgDado {
+#imgLogo{
     width: 50px;
 }
 /* btn */
-
 #voltaPerfil{
     padding: 10px 15px;
     border-radius: 100%;
