@@ -1,0 +1,11 @@
+/* arrumar as dimensões */
+
+.camadaback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    box-shadow: -23px 0px 64px 11px rgb(195 0 255);
+}

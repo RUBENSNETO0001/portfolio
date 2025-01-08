@@ -3,3 +3,9 @@
     left: 0;
     top: 0;
 }
+
+body{
+    background: url(../assents/img/background/floresta-roxa-de-fantasia-com-um-caminho-no-meio_900706-10053-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
