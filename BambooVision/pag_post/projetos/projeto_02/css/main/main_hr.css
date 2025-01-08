@@ -1,0 +1,15 @@
+.hr_01{
+    height: 40px;
+    background: url(../../assents/main/main_hr/compras.png);
+    background-size: contain;
+    animation: hr_animation 15s infinite;
+    animation-timing-function: linear;
+}
+@keyframes hr_animation{
+    to{
+        background-position: bottom;
+    }
+    from{
+        background-position: right;
+    }
+}

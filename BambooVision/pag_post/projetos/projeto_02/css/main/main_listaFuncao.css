@@ -12,3 +12,34 @@
     list-style: decimal;
     padding: 6px 25px 7px 4px;
 }
+#form_comando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* destanciei um input do outro. podia fazer com class mais sei la*/
+#number{
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+}
+#btn{
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: -2px 2px 0px 0px rgb(201 201 201);
+    border-radius: 40%;
+    transition: 1s;
+}
+#btn:hover{
+    background-color: rgb(165, 165, 165);
+    box-shadow: -3px -2px 0px 0px rgb(201 201 201);
+    color: aliceblue;
+    border-radius: 40%;
+}

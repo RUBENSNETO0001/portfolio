@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main/main_listaCompleta.css">
     <link rel="stylesheet" href="css/main/main_listaFuncao.css">
     <link rel="stylesheet" href="css/main/main_escolha.css">
+    <link rel="stylesheet" href="css/main/main_hr.css">
     <!-- js -->
     <script src="js/funçãodoSite.js" defer></script>
     <script src="js/btn.js" defer></script>
@@ -35,17 +36,18 @@
         </div>
         <!-- Aqui vai esta as escolha, escolhas essas que eu queria ter -->
         <div class="escolha">
-            <form>
-                <h3 id="textEscolha">Coloque o numero do item</h3>
+            <form action="escolha.php" id="form_comando">
+                <h3 id="textEscolha">Coloque o numero da sua escolha</h3>
                 <input type="num" id="number" placeholder="Coloque o numero:">
-                <input type="button" value="enviar" onclick="escolher()">
+                <input type="button" value="enviar" onclick="escolher()" id="btn">
             </form>
         </div>
+        <hr class="hr_01">
         <!-- aqui e a lista -->
         <div id="lista">
+            <h3>Lista</h3>
             <div id="listaTotal"></div>
         </div>
     </main>
 </body>
-
 </html>

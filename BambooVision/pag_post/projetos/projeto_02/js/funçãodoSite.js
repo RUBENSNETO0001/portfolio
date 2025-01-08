@@ -15,7 +15,7 @@ function escolher(){
         if(lista != ''){
             document.getElementById("lista").style.display = "block";
         for(let i = 0; i < lista.length ; i++){
-            document.getElementById("listaTotal").innerHTML += lista[i] + "<br>";
+            document.getElementById("listaTotal").innerHTML += `<li>${lista[i]}</li>` + "<br>";
         }
         }
         else{
