@@ -7,7 +7,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/configGeral.css">
     <link rel="stylesheet" href="css/main/main.css">
-    <link rel="stylesheet" href="css/main/main_dimensao.css">
+    <link rel="stylesheet" href="css/main/main_desing.css">
     <!-- css -->
     <!-- favicon -->
     <link rel="shortcut icon" href="assents/img/svg/panda.svg" type="image/x-icon">
@@ -19,15 +19,21 @@
 <body>
     <!-- so vamos ultilizar o main na aplicação o header seria como a cabeça mais no login a cabeça não importaria muito -->
     <main>
-        <div class="logo">
-            <img src="assents/img/logo/pandaLogo.png" alt="panda" id="pandaLogo">
-            <p id="textLogo">BambooVision</p>
+        <div class="geralMain">
+            <div class="logo">
+                <img src="assents/img/logo/pandaLogo.png" alt="panda" id="pandaLogo">
+                <p id="textLogo">BambooVision</p>
+            </div>
+            <form action="formlogin.php">
+                <div class="inputs">
+                    <input type="text" class="imputsForm">
+                    <input type="number" class="imputsForm">
+                    <input type="button" value="Entrar">
+                </div>
+            </form>
         </div>
-        <form action="formlogin.php">
-            <input type="text">
-            <input type="number">
-            <input type="button" value="enviar">
-        </form>
+
     </main>
 </body>
+
 </html>

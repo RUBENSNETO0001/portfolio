@@ -1,0 +1,11 @@
+#pandaLogo {
+    max-width: 50px;
+}
+#textLogo{
+    font-size: small;
+}
+/* form */
+.imputsForm{
+    border-radius: 20px;
+    padding: 1px 10px 1px 10px;
+}
