@@ -1,12 +1,12 @@
 /* perfis */
 .perfis {
-    background-image: url(../assents/img/background/istockphoto-1195743934-612x612.jpg);
+    background-image: url(../assents/img/background/istockphoto-1195743934-612x612.png);
     background-repeat: no-repeat;
     background-position: 50% 80%;
     backdrop-filter: blur(80px);
     position: relative;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .text_perfil {
@@ -28,7 +28,7 @@
 #btnpost {
     position: absolute;
     margin-left: auto;
-    transform: translateX(50%);
+    transform: translateX(75%);
     margin-top: -45px;
     padding: 10px;
     background-color: black;
