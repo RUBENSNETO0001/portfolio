@@ -18,22 +18,16 @@
 
 <body>
     <!-- so vamos ultilizar o main na aplicação o header seria como a cabeça mais no login a cabeça não importaria muito -->
-    <main id="main">
-        <div class="camadaback">
-            <!-- aqui vai ser a logo -->
-            <div class="logo">
-                <h1 id="texto_Logo">BambooVision</h1>
-                <img src="assents/img/logo/pandaLogo.png" alt="logo de panda" id="img_Logo">
-            </div>
-            <!-- Aqui o formulario -->
-            <form id="formulario" action="formLogin.php">
-                <input type="text" id="user" placeholder="Usuario" class="input" name="nomeUser">
-                <input type="text" id="senha" placeholder="Senha" class="input" name="senhaUser">
-                <input type="button" value="Entrar" id="btn" class="input" onclick="entrar()">
-            </form>
-            <!-- registro aqui eu fiquei em duvida oque colocar para indicar o registro e lembrei dessa frase ai botei -->
-            <span id="text-registro">Caso não possua uma conta <a href="../registro-02/index.html" id="link-registro">registra-se</a></span>
+    <main>
+        <div class="logo">
+            <img src="assents/img/logo/pandaLogo.png" alt="panda" id="pandaLogo">
+            <p id="textLogo">BambooVision</p>
         </div>
+        <form action="formlogin.php">
+            <input type="text">
+            <input type="number">
+            <input type="button" value="enviar">
+        </form>
     </main>
 </body>
 </html>
