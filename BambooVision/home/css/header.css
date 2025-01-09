@@ -64,6 +64,9 @@
     }
 
     #texto_Logo {
-        left: 50%;
+        font-size: large;
+        height: 30px;
+        display: flex;
+        align-items: center;
     }
 }

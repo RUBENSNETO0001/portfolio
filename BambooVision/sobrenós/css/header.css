@@ -6,7 +6,10 @@
     align-items: center;
     justify-content: space-around;
 }
-
+#texto_Logo{
+    font-size: large;
+    padding: 6px;
+}
 .logo {
     font-size: 15px;
     display: flex;

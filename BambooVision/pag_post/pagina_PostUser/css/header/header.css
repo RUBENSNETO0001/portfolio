@@ -14,11 +14,19 @@ header{
 #imgLogo{
     width: 80px;
 }
+#text{
+    font-size: large;
+}
 /* link para os projetos */
 #ProjetosLink{
     text-decoration: none;
     color: #ffffff;
     padding: 0px 13px;
+    transition: 1s;
+}
+#ProjetosLink:hover{
+    text-decoration: revert;
+    color: rgb(255, 0, 255);
 }
 /* buttão para voltar ao home */
 #btn_VoltarHome{
@@ -34,3 +42,8 @@ header{
 }
 /* buttão para voltar ao home */
 /* config em interna tags */
+@media (max-width: 367px){
+    #ProjetosLink{
+        display: none;
+    }
+}

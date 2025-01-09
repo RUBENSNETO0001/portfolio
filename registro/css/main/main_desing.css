@@ -17,6 +17,10 @@
 #textLogo{
     font-size: small;
 }
+#text_form{
+    display: flex;
+    justify-content: center;
+}
 /* form */
 .imputsForm{
     border-radius: 20px;

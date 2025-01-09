@@ -1,12 +1,12 @@
 /* perfis */
 .perfis {
-    background-image: url("../assents/img/background/istockphoto-1195743934-612x612.jpg");
+    background-image: url(../assents/img/background/istockphoto-1195743934-612x612.jpg);
     background-repeat: no-repeat;
     background-position: 50% 80%;
     backdrop-filter: blur(80px);
     position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
 }
 
 .text_perfil {
@@ -21,13 +21,14 @@
 
 #imgcard {
     padding: 20px;
-    height: 200px;
+    max-height: 140px;
     border-radius: 50px;
 }
 
 #btnpost {
     position: absolute;
-    margin-left: 60px;
+    margin-left: auto;
+    transform: translateX(50%);
     margin-top: -45px;
     padding: 10px;
     background-color: black;

@@ -1,0 +1,30 @@
+.mainGeral {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+/* modificar par celular/tabelt etc */
+@media(max-width:585px) {
+    .mainGeral {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/* modificar o card */
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.btn-dark:hover {
+    transition: 1s;
+    background-color: blueviolet;
+}
+
+.card-img-top {
+    box-shadow: 0px 0px 10px rgb(255, 0, 255);
+}
