@@ -10,10 +10,15 @@
     width: fit-content;
     border-radius: 12px;
 }
-
+#textLista{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
 #listaTotal {
     display: flex;
     font-family: cursive;
     justify-content: center;
     flex-direction: column;
+    background-color: #ffffff;
 }
