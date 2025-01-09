@@ -1,6 +1,6 @@
 let array = ["user", 1234 ];
 // usei uma função, que para amim e mais rapido ser executado
-function entrar() {
+function entrarLogin() {
     let chavedeEntrada = document.getElementById("user").value;
     let senha = document.getElementById("senha").value;
 
