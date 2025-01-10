@@ -8,7 +8,6 @@
     transform: translateY(-50%);
 }
 
-
 #imgDadod {
     width: 20%;
     transition: 1s;
@@ -43,6 +42,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: inset 0px 0px 41px black;
+    padding: 8%;
 }
 
 #regras,
@@ -94,13 +95,13 @@ td {
     align-items: center;
     justify-content: center;
     height: 153px;
-    background-color:#ff4343;
+    background-color: #ff4343;
     color: white;
     box-shadow: inset 0px -18px 81px -4px black;
 }
 
 /* hr */
-#hr01{
+#hr01 {
     height: 40px;
     background-color: #ff4343;
     box-shadow: inset 0px -20px 45px -21px black;
