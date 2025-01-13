@@ -1,6 +1,6 @@
 document.getElementById("button").addEventListener("click", function(){
     
-    let random = Math.floor(Math.random() * 7);//esqueci que e 7 no caso
+    let random = Math.floor(Math.random() * 6)+ 1;//esqueci que e 7 no caso
 
     if(random == 1){
         document.getElementById("imgDadod").src="assents/main/dado1.jpeg";
@@ -28,6 +28,6 @@ document.getElementById("button").addEventListener("click", function(){
     }
     else{
         document.getElementById("imgDadod").src="assents/header/dados-removebg-preview.png";
-        document.getElementById("number").innerHTML="Jogada nula";
+        document.getElementById("number").innerHTML="Aconteceu um error";
     }
 })
