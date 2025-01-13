@@ -1,3 +1,9 @@
 *{
     margin: 0;
+    font-family: 'FontDomine';
+}
+/* font */
+@font-face{
+    src: url('../assents/font/Domine/Domine-VariableFont_wght.ttf');
+    font-family: 'FontDomine';
 }

@@ -1,7 +1,13 @@
 *{
     /* para mim e melhor zera tudo */
     margin: 0;
+    font-family: "FontOvo";
 }
 main{
     display: flex;
+}
+/* font geral */
+@font-face{
+    src: url("../assents/font/Ovo/Ovo-Regular.ttf");
+    font-family: "FontOvo";
 }

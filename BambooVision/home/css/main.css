@@ -13,6 +13,7 @@
     background-color: black;
     color: aliceblue;
     padding: 5px;
+    font-family: "FontDM";
 }
 
 .card {
@@ -43,4 +44,10 @@
 }
 #imgcard:hover{
     opacity: 80%;
+}
+
+/* font */
+@font-face{
+    src: url("../assents/font/DM_Serif_Text/DMSerifText-Italic.ttf");
+    font-family: "FontDM";
 }

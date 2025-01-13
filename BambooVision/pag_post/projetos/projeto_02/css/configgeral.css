@@ -1,4 +1,10 @@
 *{
     margin: 0;
     background-color: rgb(224, 240, 255);
+    font-family: 'FontFiland' ;
+}
+/* font */
+@font-face {
+    font-family: 'FontFiland' ;
+    src: url('../assents/font/Finlandica/Finlandica-VariableFont_wght.ttf');
 }

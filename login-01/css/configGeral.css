@@ -1,3 +1,10 @@
 *{
     margin: 0;
+    font-family: 'FiraSans';
+}
+
+/* font geral */
+@font-face{
+    src: url("../assents/font/Fira_Sans/FiraSans-ExtraLight.ttf");
+    font-family: 'FiraSans';
 }
