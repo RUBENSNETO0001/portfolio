@@ -12,17 +12,16 @@
 
 #img_templete1 {
     filter: drop-shadow(0px 0px 10px #d400ff);
-    max-width: 320px;
+    max-width: 50%;
 }
 #img_templete2{
-    max-width: 320px;
+    max-width: 55%;
 }
-#img_templete3{
-    max-width: 320px;
+#imgtemplete3{
+    max-width: 55%;
 }
 #img_templete4{
-    max-width: 320px;
-    border-image: fill;
+    max-width: 55%;
 }
 #text_sobrenos {
     max-width: 400px;
