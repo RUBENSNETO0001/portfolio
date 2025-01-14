@@ -9,6 +9,10 @@ body{
     justify-content: space-evenly;
     height: 100vh;
 }
+/* header */
+.bg-light{
+    display: flex;
+}
 
 /* modificar par celular/tabelt etc */
 @media(max-width:585px) {
