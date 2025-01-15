@@ -17,7 +17,7 @@
     /* amigo isso aqui vai deixa a img intagivel e não clicavel */
     width: 300px;
     padding: 0px 0px 0px 12px;
-    animation-duration: 13s;
+    animation-duration: 15s;
     animation-name: pandaAndandonoAzul;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
