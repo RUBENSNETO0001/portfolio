@@ -1,3 +1,4 @@
+// senha mais segura de todos os tempos kkkkkkkkkkk
 let array = ["user", 1234 ];
 // usei uma função, que para amim e mais rapido ser executado
 function entrarLogin() {
@@ -12,6 +13,6 @@ function entrarLogin() {
         }
         else {
             // caso o cara erre a senha. como não ta conectado a um banco de dados so tem uma senha possivel para acessar  o site.
-            alert("Porfavor verifique se colocou algum no campos do login!!");
+            alert("Login incorreto!!");
         }
 }
