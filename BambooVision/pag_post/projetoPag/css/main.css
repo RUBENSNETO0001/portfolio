@@ -16,20 +16,11 @@ body {
     display: flex;
 }
 
-/* modificar par celular/tabelt etc */
-@media(max-width:585px) {
-    .mainGeral {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: auto;
-    }
-}
-
 /* modificar o card */
 .card {
     display: flex;
     align-items: center;
+    max-width: 30%;
 }
 
 .btn-dark:hover {
@@ -45,4 +36,18 @@ body {
 @font-face {
     src: url('../assents/font/DM_Serif_Text/DMSerifText-Regular.ttf');
     font-family: 'FontDM';
+}
+
+/* modificar par celular/tabelt etc */
+@media(max-width:585px) {
+    .mainGeral {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        padding: 9px 0px;
+    }
+    .card{
+        max-width: 60%;
+    }
 }
