@@ -12,7 +12,7 @@
 
 #img_templete1 {
     filter: drop-shadow(0px 0px 10px #d400ff);
-    max-width: 50%;
+    max-width: 50vh;
 }
 #img_templete2{
     max-width: 55%;
@@ -21,7 +21,7 @@
     max-width: 55%;
 }
 #img_templete4{
-    max-width: 55%;
+    max-width: 30vh;
 }
 #text_sobrenos {
     max-width: 400px;
