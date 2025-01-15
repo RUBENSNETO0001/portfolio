@@ -12,7 +12,7 @@
 
 #img_templete1 {
     filter: drop-shadow(0px 0px 10px #d400ff);
-    max-width: 50vh;
+    max-width: 50%;
 }
 #img_templete2{
     max-width: 55%;
@@ -44,6 +44,16 @@
 
     #text_sobrenos {
         padding: 50px;
+    }
+}
+@media(max-width: 474px){
+    #img_templete1{
+        max-width: 100%;
+    }
+}
+@media(max-width: 280px){
+    #img_templete1{
+        max-width: 100%;
     }
 }
 
