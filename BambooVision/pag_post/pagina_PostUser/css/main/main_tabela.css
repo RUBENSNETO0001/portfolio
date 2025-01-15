@@ -4,23 +4,28 @@
     flex-direction: column;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid;
     padding: 10px
 }
-#textoplaca_skills{
+
+#textoplaca_skills {
     margin: 20px 0px;
 }
+
 .imgSkills {
     width: 40px;
 }
 
 /* animação */
-th:hover{
+th:hover {
     background-color: #000000;
     color: #d400ff;
     transition: 1s;
 }
+
 td:hover,
 .imgSkills:hover {
     color: #d400ff;

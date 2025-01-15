@@ -1,29 +1,36 @@
 /* div dos projetos( quando eu adicionei o hr eu meio que deixei ele para baixo da rugi dele e a divi ta començando em cima dele mesmo eu colocando em baixo. eub vou colocar a rug da div de baixo mais para baixo para concertar isso ai sou mmuitto burro) */
-.projetos{
+.projetos {
     position: static;
     margin-top: 1%;
     background-color: #bbe2e0;
     /* filha da puta isso aqui vai impedir a imagem leva o site tbm */
-    overflow: hidden; /* Impede rolagem */
+    overflow: hidden;
+    /* Impede rolagem */
     padding: 0px 0px 40px;
 }
-#panda_animaGif{
+
+#panda_animaGif {
     /* amigo isso aqui vai deixa a img intagivel e não clicavel */
-    pointer-events: none; /* Evita interações de clique */
+    pointer-events: none;
+    /* Evita interações de clique */
     user-select: none;
     /* amigo isso aqui vai deixa a img intagivel e não clicavel */
     width: 300px;
     padding: 0px 0px 0px 12px;
-    animation: infinite;
-    animation-duration: 9s;
+    animation-duration: 13s;
     animation-name: pandaAndandonoAzul;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.89, 0.99, 1, 1);
 }
+
 /* animation */
-@keyframes pandaAndandonoAzul{
-    from{
+@keyframes pandaAndandonoAzul {
+    from {
         margin-left: -50%;
     }
-    to{
+
+    to {
         margin-left: 100vw;
     }
 }
