@@ -6,6 +6,9 @@
     margin-top: 80px;
     margin-left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* sendo sincero não sei oque eu to fazendo aqui mais ta dando certo */
 .textLista{
@@ -25,8 +28,10 @@
     border-radius: 12px;
     border-bottom: 1px solid;
     border-left: 1px solid;
-    padding: 3%;
+    padding: 12px 11px;
     background-color: rgb(255, 255, 255);
+    width: 60px;
+    text-align: center;
 }
 #btn{
     position: relative;

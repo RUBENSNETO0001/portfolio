@@ -22,4 +22,7 @@ function escolher(){
             alert("Nada na lista!!");
         }
     }
+    else{
+           alert("Numero do comando não encontrad!!");
+    }
 }
