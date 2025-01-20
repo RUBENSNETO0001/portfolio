@@ -14,8 +14,25 @@ body {
 /* header */
 .bg-light {
     display: flex;
+    border-bottom: 1px solid black;
 }
-
+.btn-primary{
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    border: 1px solid black;
+    box-shadow: 0px 0px 12px black;
+}
+.btn-primary:hover{
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 12px rgb(225, 0, 255);
+    transition: 0.7s;
+}
+.btn:first-child:active:active{
+    background-color: rgb(124, 124, 124);
+    color: rgb(255, 0, 255);
+}
 /* modificar o card */
 .card {
     display: flex;
@@ -30,6 +47,11 @@ body {
 
 .card-img-top {
     box-shadow: 0px 0px 10px rgb(255, 0, 255);
+    transition: 0.7s;
+}
+.card-img-top:hover {
+    box-shadow: 0px 0px 100px rgb(255, 0, 255);
+    filter: drop-shadow(0px 0px 5px rgb(255, 0, 242));
 }
 
 /* font */
