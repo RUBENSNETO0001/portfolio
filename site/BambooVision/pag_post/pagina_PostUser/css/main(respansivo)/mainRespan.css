@@ -3,6 +3,9 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .apresentacaoTexto_01 {
+        padding: 8px;
+    }
 
     table,
     th,
